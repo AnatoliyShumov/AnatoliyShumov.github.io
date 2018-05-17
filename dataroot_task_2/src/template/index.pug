@@ -1,0 +1,318 @@
+doctype html
+html 
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title DataRoot Task 2
+    link(rel='stylesheet', href='css/normalize.css')
+    link(rel='stylesheet', href='css/index.css')
+    link(href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet")
+    script(src="js/jquery-1.11.1.min.js")
+    script(src="js/jquery.touchSwipe.min.js")
+    script(src='js/jquery.select.js')
+    script(src='js/jquery.modal.js')
+    script(src='js/jquery.index_slider.js')
+    script(src='js/index.js')
+  body
+    include _hamburger
+    article.js-wrap
+      section.header
+        .header__container
+          include _header
+          h1.header__title Поиск недвижимости в Украине
+          form(class='header__search' id='search' action="#")
+            .header__town
+              span Выберите город
+              div(class="header__select")
+                select(class='js-header-slct' name="header__select")
+                  option(value="Kiev") Киев
+                  option(value="Lviv") Львов
+                  option(value="Odessa") Одесса
+                  option(value="Krivoy_rog") Кривой рог
+                  option(value="Lutsk") Луцк
+            .header__rooms
+              span Кол-во комнат
+              input(type="checkbox" id="room_1" value="1")
+              label(for="room_1") 1
+              input(type="checkbox" id="room_2" value="2")
+              label(for="room_2") 2
+              input(type="checkbox" id="room_3" value="3")
+              label(for="room_3") 3
+              input(type="checkbox" id="room_4" value="4")
+              label(for="room_4") 4
+              input(type="checkbox" id="room_5+" value="5+")
+              label(for="room_5+") 5+
+            input(class='header__submit second_button' type="submit" value='Перейти к поиску')
+      section(class='offer')
+        .offer__text
+          h2.metro__title Недвижимость возле метро
+          form(action="#")
+              .rooms__type
+                input(id='rooms_offer_apartment' type="radio" name='type_rooms_offer' value='apartment' checked)
+                label(for="rooms_offer_apartment") Квартиры
+                input(id='rooms_offer_house' type="radio" name='type_rooms_offer' value='house')
+                label(for="rooms_offer_house") Дома
+                input(id='rooms_offer_office' type="radio" name='type_rooms_offer' value='office')
+                label(for="rooms_offer_office") Офисы
+              .metro__select
+                  select(class='js-metro-slct' name="metro-slct")
+                    option(value="polytechnical") Политехнический институт
+                    option(value="kontraktova") Контрактовая площадь
+                    option(value="zoloti") Золотые ворота
+              input(type="submit" class='primary_button' value='Показать результаты поиска')
+        .offer__img
+          img(src="img/metro_bg.jpg", alt="Метро")
+      section(class='board')
+        h2 Лучшие предложения в Киеве
+        .board__items
+          .board__item
+            a(class='board__link' href="#")
+              img(class="item__img" src="img/item__img_1.png", alt="Фото квартиры")
+            .price_wrap
+              span.price 7 800 грн
+              i.icon_ok
+            .item__info
+              p 2 комн.
+              p 30 кв.м. 
+            span.item__metro 
+              |
+              i(class='metro_point metro_red') 
+              |Политехнический институт
+            .board__menu
+              i
+              .overflow__menu
+                a(href="#") Stop app
+                a(href="#") Restart app
+                a(href="#") Rename app
+                a(href="#") Edit routes and access
+                a(class='overflow__link-danger' href="#") Delete app
+          .board__item
+            a(class='board__link' href="#")
+              img(class="item__img" src="img/item__img_1.png", alt="Фото квартиры")
+            .price_wrap
+              span.price 10 200 грн
+              i.icon_ok
+            .item__info
+              p 1 комн.
+              p 30 кв.м. 
+            span.item__metro 
+              |
+              i(class='metro_point metro_red') 
+              |Политехнический институт
+            .board__menu
+              i
+              .overflow__menu
+                a(href="#") Stop app
+                a(href="#") Restart app
+                a(href="#") Rename app
+                a(href="#") Edit routes and access
+                a(class='overflow__menu__link-danger' href="#") Delete app
+          .board__item
+            a(class='board__link' href="#")
+              img(class="item__img" src="img/item__img_1.png", alt="Фото квартиры")
+            .price_wrap
+              span.price 6 900 грн
+              i.icon_ok
+            .item__info
+              p 2 комн.
+              p 30 кв.м. 
+            span.item__metro 
+              |
+              i(class='metro_point metro_red') 
+              |Политехнический институт
+            .board__menu
+              i
+              .overflow__menu
+                a(href="#") Stop app
+                a(href="#") Restart app
+                a(href="#") Rename app
+                a(href="#") Edit routes and access
+                a(class='overflow__link-danger' href="#") Delete app
+          .board__item
+            a(class='board__link' href="#")
+              img(class="item__img" src="img/item__img_1.png", alt="Фото квартиры")
+            .price_wrap
+              span.price 9 000 грн
+              i.icon_ok
+            .item__info
+              p 2 комн.
+              p 30 кв.м. 
+            span.item__metro 
+              |
+              i(class='metro_point metro_red') 
+              |Политехнический институт
+            .board__menu
+              i
+              .overflow__menu
+                a(href="#") Stop app
+                a(href="#") Restart app
+                a(href="#") Rename app
+                a(href="#") Edit routes and access
+                a(class='overflow__link-danger' href="#") Delete app
+        .board__more
+          a(href="#")
+            h3 Смотреть лучшие ценовые предложения
+      section(class='last board')
+        form(action="#")
+          h2 Последние обьявления в Киеве
+          .rooms__type
+            input(id='rooms_best_apartment' type="radio" name='type_rooms_best' value='apartment' checked)
+            label(for="rooms_best_apartment") Квартиры
+            input(id='rooms_best_house' type="radio" name='type_rooms_best' value='house')
+            label(for="rooms_best_house") Дома
+            input(id='rooms_best_office' type="radio" name='type_rooms_best' value='office')
+            label(for="rooms_best_office") Офисы
+          .board__items
+            .board__item
+              a(class='board__link' href="#")
+                img(class="item__img" src="img/item__img_2.png", alt="Фото квартиры")
+              .price_wrap
+                span.price 11 800 грн
+                i.icon_ok
+              .item__info
+                p 2 комн.
+                p 48 кв.м.
+              span.item__metro 
+                |
+                i(class='metro_point metro_red') 
+                |Политехнический институт
+              .board__menu
+                i
+                .overflow__menu
+                  a(href="#") Stop app
+                  a(href="#") Restart app
+                  a(href="#") Rename app
+                  a(href="#") Edit routes and access
+                  a(class='overflow__link-danger' href="#") Delete app
+            .board__item
+              a(class='board__link' href="#")
+                img(class="item__img" src="img/item__img_3.png", alt="Фото квартиры")
+              .price_wrap
+                span.price 15 000 грн
+                i.icon_ok
+              .item__info
+                p 3 комн.
+                p 100 кв. м.
+              span.item__metro 
+                |
+                i(class='metro_point metro_red') 
+                |Шулявская
+              .board__menu
+                i
+                .overflow__menu
+                  a(href="#") Stop app
+                  a(href="#") Restart app
+                  a(href="#") Rename app
+                  a(href="#") Edit routes and access
+                  a(class='overflow__link-danger' href="#") Delete app
+            .board__item
+              a(class='board__link' href="#")
+                img(class="item__img" src="img/item__img_4.png", alt="Фото квартиры")
+              .price_wrap
+                span.price 11 800 грн
+                i.icon_ok
+                i.icon_ok
+              .item__info
+                p 1 комн.
+                p 30 кв.м. 
+              span.item__metro 
+                |
+                i(class='metro_point metro_blue') 
+                |Контрактовая площадь
+              .board__menu
+                i
+                .overflow__menu
+                  a(href="#") Stop app
+                  a(href="#") Restart app
+                  a(href="#") Rename app
+                  a(href="#") Edit routes and access
+                  a(class='overflow__link-danger' href="#") Delete app
+            .board__item
+              a(class='board__link' href="#")
+                img(class="item__img" src="img/item__img_1.png", alt="Фото квартиры")
+              .price_wrap
+                span.price 7 000 грн
+                i.icon_ok
+              .item__info
+                p 2 комн.
+                p 40 кв.м. 
+              span.item__metro просп. Победы, 18А
+              .board__menu
+                i
+                .overflow__menu
+                  a(href="#") Stop app
+                  a(href="#") Restart app
+                  a(href="#") Rename app
+                  a(href="#") Edit routes and access
+                  a(class='overflow__link-danger' href="#") Delete app
+          .board__more
+            input(type="submit" name='last_find' value='Смотреть самые свежие объявления')
+      section(class='social')
+        .social__header
+          h2 Общайтесь в Telegram
+          p Не отвлекайтесь больше на формальности. Получайте моментальные уведомления о новых обьявлениях, общайтесь без ограничений. 
+          .social__button
+            a(href="#" class='social__link_active') Поиск недвижимости
+            a(href="#") Общение с клиентами
+        div(class='social__slider js-slider')
+          .social__slide
+            img(class='social__img' src="img/iphone.png", alt="Iphone")
+            .social__info
+              .social__logo
+                img(src="img/telegram__logo.png", alt="Telegram")
+                h4 Telegram
+              h5 Metrovka Bot
+              ol
+                li Собирайте аналитику по объектам
+                li Получайте подсказки по эффективному продвижению объявлений
+                li Общайтесь с клиентами через специальный канал телекоммуникации
+              a(class='social__join primary_button' href='#') Присоединиться в Telegram
+          .social__slide
+            .social__info
+              .social__logo
+                img(src="img/telegram__logo.png", alt="Telegram")
+                h4 Lorem
+              h5 Lorem ipsum.
+              ol
+                li Lorem ipsum dolor sit.
+                li Lorem ipsum dolor sit amet, consectetur.
+                li Lorem ipsum dolor sit amet, consectetur.
+              a(class='social__join primary_button' href='#')  Lorem ipsum dolor.
+            img(class='social__img' src="img/iphone.png", alt="Iphone")
+          .slider__prev
+            i
+          .slider__next
+            i
+          .slider__pagination
+      section(class='blog')
+        .blog__header
+          h3 Блог Metrovka
+          p Хитрости, приемы, советы, фото и видео – все о том как продать, купить, сдать в аренду или арендовать недвижимость.
+        .blog__items
+          .blog__item
+            a(href="#" class='blog__img')
+              img(src="img/metrovka__img_1.png", alt="Metrovka фото")
+            span(class='category blog__lifehack') Лайфхак
+            a(href="#" class='blog__title') Киевляне могут оплатить коммуналку через Facebook…
+            div
+              span.blog__autor Татьяна Малыняк
+              span.blog__time 5 мин чтения
+          .blog__item
+            a(href="#" class='blog__img')
+              img(src="img/metrovka__img_2.png", alt="Metrovka фото")
+            span(class='category blog__advice') Совет Metrovka
+            a(href="#" class='blog__title') ТОП-5 самых дешевых квартир Киева
+            div
+              span.blog__autor Татьяна Малыняк
+              span.blog__time 4 мин чтения
+          .blog__item
+            a(href="#" class='blog__img')
+              img(src="img/metrovka__img_3.png", alt="Metrovka фото")
+            span(class='category blog__technology') Технологии
+            a(href="#" class='blog__title') Смарт квартиры: цены, предложения и законность
+            div
+              span.blog__autor Татьяна Малыняк
+              span.blog__time 2 мин чтения
+        a(class='blog__more' href="#") Перейти на страницу блога
+      include _footer
+    include _request

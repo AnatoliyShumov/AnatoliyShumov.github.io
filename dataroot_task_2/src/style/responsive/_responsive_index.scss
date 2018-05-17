@@ -1,0 +1,175 @@
+$width_1: 890px;
+$width_2: 788px;
+$width_3: 570px;
+$width_4: 483px;
+$width_5: 350px;
+@media screen and (max-width: $width_1) {
+	.board{
+		.board__items{
+			box-sizing: border-box;
+			overflow-x: scroll;
+			width: 100%;
+		}
+	}
+	.social{
+		.social__slider{
+			min-height: auto;
+			.social__slide{
+				.social__img{
+					display: none;
+				} 
+				.social__info{
+					margin: auto;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: $width_2) {
+	.offer{
+		flex-wrap: wrap;
+		&__img{
+		    width: 100%;
+		    order: 1;
+		    img{
+		    	display: block;
+				margin: auto;
+		    }
+		}
+		&__text{
+			margin: auto;
+		    order: 2;
+		    margin-top: 20px;
+		}
+	}
+	.blog{
+		margin-top: 5px;
+		&__header{
+			padding-left: 38px;
+			padding-right: 38px;
+			width: auto;
+			h3{
+				font-size: 20px;
+			}
+		}
+		&__items{
+			flex-wrap: wrap;
+			flex-direction: column;
+			.blog__item{
+				padding-bottom: 13px;
+				box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.1);
+				border: 0px solid #DFE3E6;
+				width: 50%;
+				margin: 0 auto 20px auto;
+				.category,p,div, .blog__title{
+					padding: 0 20px;
+				}
+			}
+			.blog__item:last-child{
+				margin: 0 auto ;
+			}
+		}
+	}
+}
+@media screen and (max-width: $width_3){
+	.blog{
+		&__items{
+			.blog__item{
+				width: 320px;
+			}
+		}
+	}
+}
+@media screen and (max-width: $width_4){
+	.offer{
+		padding: 20px 12px;
+		text-align: center;
+		padding-right: 3px;
+		&__img{
+			margin-right: 0!important;
+			height: 213px;
+			width: 100%;
+		    img{
+		    	width: 100%;
+		    	height: 100%;
+		    }
+		}
+		.offer__title{
+			font-size: 20px!important;
+		}
+		.metro__select{
+			margin-top: 30px!important;
+			text-align: left;
+			margin: auto;
+			label{
+				i{
+					margin-right: 12px;
+				}
+			}
+		}
+		.rooms__type{
+			display: inline-block;
+		}
+		.primary_button{
+			width: 100%;
+		}
+	}
+	.board{
+		h2{
+			font-size: 20px;
+		}
+	}
+	.social{
+		margin: 0;
+		.social__header{
+			width: auto;
+			padding-top: 18px;
+			h2{
+				padding: 0 20px;
+				font-size: 20px;
+			}
+			p{
+				padding: 0 20px;
+			}
+			.social__button{
+				box-sizing: border-box;
+				width: 100%;
+				margin-top: 17px;
+				padding-left: 6px;
+				padding-right: 6px;
+			}
+		}
+		.social__slider{
+			.social__slide{
+				.social__img{
+				} 
+				.social__info{
+					padding: 25px 39px;
+					box-sizing: border-box;
+					width: 100%;
+					h5{
+						font-size: 20px;
+					}
+					.social__join{
+						margin-top: 31px;
+						width: 100%;
+					}
+					ol{
+						padding-left: 4px;
+						li{
+							margin-bottom: 20px;
+						}
+					}
+				}
+			}
+			.slider__nav{
+				margin-top: 25px;
+			}
+		}
+	}
+}
+@media screen and (max-width: $width_5){
+	body{
+		width: 350px;
+	}
+}
