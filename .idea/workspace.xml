@@ -17,8 +17,8 @@
       <change beforePath="$PROJECT_DIR$/abz-test/src/components/Relationships.js" beforeDir="false" afterPath="$PROJECT_DIR$/abz-test/src/components/Relationships.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/abz-test/src/components/Requirements.js" beforeDir="false" afterPath="$PROJECT_DIR$/abz-test/src/components/Requirements.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/abz-test/src/components/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/abz-test/src/components/Users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ciklum-todo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ciklum-todo/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ciklum-todo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ciklum-todo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ciklum-todo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ciklum-todo/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ciklum-todo/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/ciklum-todo/webpack.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,13 +52,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="47" column="7" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+            <state relative-caret-position="368">
+              <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ciklum-todo/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="200">
+                <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ciklum-todo/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ciklum-todo/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -105,8 +126,10 @@
         <option value="$PROJECT_DIR$/pure-team/src/App.css" />
         <option value="$PROJECT_DIR$/pure-team/src/components/pie-menu/pie-menu.js" />
         <option value="$PROJECT_DIR$/pure-team/src/components/pie-menu/pie-menu.style.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/ciklum-todo/.gitignore" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/ciklum-todo/webpack.config.js" />
+        <option value="$PROJECT_DIR$/ciklum-todo/README.md" />
       </list>
     </option>
   </component>
@@ -120,7 +143,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="836" />
   </component>
@@ -186,17 +210,18 @@
       <option name="presentableId" value="Default" />
       <updated>1571656165258</updated>
       <workItem from="1571656166380" duration="18144000" />
-      <workItem from="1572832203533" duration="348000" />
+      <workItem from="1572832203533" duration="705000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18492000" />
+    <option name="totallyTimeSpent" value="18849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="836" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2761087" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2761087" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -209,7 +234,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32912987" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32912987" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -264,17 +289,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="47" column="7" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ciklum-todo/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ciklum-todo/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ciklum-todo/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="200">
+            <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

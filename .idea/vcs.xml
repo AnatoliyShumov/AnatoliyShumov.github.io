@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Vue-task/my-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Vue-test/my-app" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/abz-test" vcs="Git" />
   </component>
 </project>

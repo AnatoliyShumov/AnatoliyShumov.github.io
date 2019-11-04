@@ -14,7 +14,7 @@ const conf = {
     filename: '[name].js'
   },
   devServer: {
-    port: 8080
+    port: 3001
   },
   plugins: [
     new HtmlWebpackPlugin({
