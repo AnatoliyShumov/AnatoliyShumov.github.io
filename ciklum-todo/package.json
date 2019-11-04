@@ -1,0 +1,46 @@
+{
+  "name": "ciklum-todo",
+  "homepage": "https://anatoliyshumov.github.io/cliklum-todo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open --config webpack/webpack.config.js",
+    "build": "webpack --mode production --config webpack/webpack.config.js",
+    "eslint": "./node_modules/.bin/eslint ",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "AnatoliyShumov",
+  "license": "ISC",
+  "browserslist": [
+    "> 1%",
+    "last 3 version"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "autoprefixer": "^9.7.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "cssnano": "^4.1.10",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "3.0.7",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.13.0",
+    "path": "^0.12.7",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
