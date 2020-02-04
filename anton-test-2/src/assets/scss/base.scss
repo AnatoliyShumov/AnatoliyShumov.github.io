@@ -1,0 +1,92 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+a{
+  text-decoration: none;
+  color: #222222;
+}
+
+button:active, button:focus {
+  outline: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p,
+pre,
+blockquote,
+figure,
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+input,
+textarea,
+select,
+button {
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+input,
+textarea,
+button {
+  border: 1px solid gray;
+}
+
+button {
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+embed,
+iframe,
+img,
+object,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+[hidden] {
+  display: none;
+}
+
+.container {
+  max-width: 1366px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
