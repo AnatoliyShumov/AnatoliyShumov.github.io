@@ -17,6 +17,45 @@
       <change beforePath="$PROJECT_DIR$/abz-test/src/components/Relationships.js" beforeDir="false" afterPath="$PROJECT_DIR$/abz-test/src/components/Relationships.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/abz-test/src/components/Requirements.js" beforeDir="false" afterPath="$PROJECT_DIR$/abz-test/src/components/Requirements.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/abz-test/src/components/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/abz-test/src/components/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/loose-envify" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-tokens/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-tokens/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-tokens/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-tokens/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-tokens/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loose-envify/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loose-envify/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loose-envify/cli.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loose-envify/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loose-envify/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loose-envify/loose-envify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loose-envify/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loose-envify/replace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-assign/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-assign/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-assign/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-assign/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/checkPropTypes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/factory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/factoryWithThrowingShims.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/factoryWithTypeCheckers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/lib/ReactPropTypesSecret.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/prop-types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/prop-types.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-is/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-is/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-is/build-info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-is/cjs/react-is.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-is/cjs/react-is.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-is/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-is/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-is/umd/react-is.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-is/umd/react-is.production.min.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,11 +65,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calendarApp/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="640">
               <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="52" column="42" lean-forward="true" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -43,7 +91,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/abz-test/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
+            <state relative-caret-position="860">
               <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="18" />
             </state>
           </provider>
@@ -86,10 +134,10 @@
         <option value="$PROJECT_DIR$/ciklum-todo/README.md" />
         <option value="$PROJECT_DIR$/ciklum-task/src/scss/style.scss" />
         <option value="$PROJECT_DIR$/NextJS/.gitignore" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/calendarApp/public/manifest.json" />
         <option value="$PROJECT_DIR$/calendarApp/public/index.html" />
         <option value="$PROJECT_DIR$/calendarApp/package.json" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -114,6 +162,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,21 +170,10 @@
               <item name="AnatoliyShumov.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="AnatoliyShumov.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AnatoliyShumov.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnatoliyShumov.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="abz-test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AnatoliyShumov.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnatoliyShumov.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="calendarApp" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,16 +267,17 @@
       <workItem from="1571656166380" duration="18144000" />
       <workItem from="1572832203533" duration="705000" />
       <workItem from="1572833167754" duration="973000" />
+      <workItem from="1581967870014" duration="277000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21410000" />
+    <option name="totallyTimeSpent" value="21687000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
+    <frame x="1031" y="0" width="889" height="1200" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2827476" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.46280992" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -302,23 +341,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NextJS/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NextJS/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/NextJS/package.json" />
+    <entry file="file://$PROJECT_DIR$/NextJS/.gitignore" />
     <entry file="file://$PROJECT_DIR$/calendarApp/public/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -363,6 +387,25 @@
     <entry file="file://$PROJECT_DIR$/calendarApp/public/favicon.ico">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/calendarApp/build/static/js/2.2f516087.chunk.js" />
+    <entry file="file://$PROJECT_DIR$/calendarApp/build/static/js/main.ba9334c4.chunk.js" />
+    <entry file="file://$PROJECT_DIR$/calendarApp/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calendarApp/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abz-test/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/calendarApp/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -370,26 +413,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calendarApp/build/static/js/2.2f516087.chunk.js">
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/calendarApp/build/static/js/main.ba9334c4.chunk.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abz-test/package.json">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calendarApp/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calendarApp/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        <state relative-caret-position="367">
+          <caret line="52" column="42" lean-forward="true" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
         </state>
       </provider>
     </entry>
