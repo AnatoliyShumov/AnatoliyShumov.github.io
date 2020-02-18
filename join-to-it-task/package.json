@@ -9,10 +9,8 @@
     "axios": "^0.19.2",
     "history": "^4.10.1",
     "i": "^0.3.6",
-    "install": "^0.13.0",
     "leaflet": "^1.6.0",
     "node-sass": "^4.13.1",
-    "npm": "^6.13.7",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-leaflet": "^2.6.1",
@@ -26,6 +24,8 @@
     "thunk": "0.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -46,5 +46,10 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "./"
+  "homepage": "./",
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "install": "^0.13.0",
+    "npm": "^6.13.7"
+  }
 }
